@@ -1,0 +1,15 @@
+Hi Blagoy,
+
+Great work, I really like what you've done it is exactly what is wanted. 
+
+Just one small remark, if you are about to use data-attribute, you could pass the data direcly to the component, something like:
+
+<Button action={this.changeUrl} text="First image" data_id="0" />
+
+to become
+
+<Button action={this.changeUrl} text="First image" data_id="https://d6d2h4gfvy8t8.cloudfront.net/18474768-orig.jpg" />
+
+This way, the order in the array won't matter. And you can clearly see which will go into which button.
+
+Except this small remark, everything is perfect, excelent work!
